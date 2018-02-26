@@ -1,0 +1,15 @@
+1）神经网路的reguralization方法包括这样三种：
+	1.early stop
+	2.reguralization about W
+	3.add noise in source training data,and using aotoencoder.
+	
+2）利用aotoencoder作数据预处理，利用back-propagation作参数的调优（tune）
+
+3）线性的aotoencoder相当于统计意义上的PCA 
+
+
+
+RBF
+Radial Basis Function:
+Radial:only depends on distance(Xn-X_center)
+Basis:combine
