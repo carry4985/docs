@@ -1,0 +1,22 @@
+online
+
+###Caffe###
+1.basic pkgs.
+sudo apt-get install libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev protobuf-compiler
+sudo apt-get install --no-install-recommends libboost-all-dev
+sudo apt-get install libatlas-base-dev libopenblas-dev
+sudo apt-get install python-dev
+sudo apt-get install libgflags-dev libgoogle-glog-dev liblmdb-dev
+
+all-in-one:
+sudo apt-get install libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev protobuf-compiler --no-install-recommends libboost-all-dev libatlas-base-dev libopenblas-dev python-dev libgflags-dev libgoogle-glog-dev liblmdb-dev
+
+2.CUDA and nvidia driver.
+1) offline '.run' file
+2) using software upodate: system settings->software updates->Additional drivers->check 'Using NVIDIA' item.
+
+
+###tensorflow and pytorch####
+1)annaconda
+2)pytorch_env
+3)tf_env
